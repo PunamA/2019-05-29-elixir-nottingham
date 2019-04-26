@@ -71,7 +71,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <p>There are <strong>25 seats</strong> available. Participants on a first come first served basis. You can register by using the link below.</p>
 
-<h4>To enroll please clikc: <a href="https://www.eventbrite.com/e/the-university-of-nottingham-software-carpentry-workshop-tickets-58430220362#tickets">link</a> </h4>
+<h4>To enroll please click: <a href="https://www.eventbrite.com/e/the-university-of-nottingham-software-carpentry-workshop-tickets-58430220362#tickets">link</a> </h4>
 
 <p><strong>Space is limited</strong> and it will likely fill quickly. 
   
