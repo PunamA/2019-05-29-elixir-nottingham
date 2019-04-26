@@ -15,7 +15,7 @@ instructor: ["Mathias Barløse", "Punam Amratia"] # boxed, comma-separated list 
 helper: ["Micheal Wilson", "Micheal Pound", "Andrew Warry"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["Mathias@barlose.dk", "phillip.quinlan@nottingham.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:   https://etherpad.net/p/2019-05-29-Nottingham          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: 58430220362           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -30,12 +30,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-
-{% comment %}
-For a workshop please delete the following block
-{% endcomment %}
-<div class="alert alert-danger">
-
 </div>
 
 {% if page.carpentry != site.carpentry %}
@@ -46,23 +40,6 @@ see the changes take effect locally.
 </div>
 {% endif %}
 
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/e/the-university-of-nottingham-software-carpentry-workshop-tickets-58430220362"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
 
 <h2>Registration:</h2>
 
