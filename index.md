@@ -30,7 +30,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-</div>
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
