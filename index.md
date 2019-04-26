@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
+carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
 venue: "University of Nottingham"        # brief name of host site without address (e.g., "Euphoric State University")
 address: " Nottingham NG7 2RD, Great Britain"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
@@ -8,7 +8,7 @@ country: "gb"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latlng: "52.934502, -1.194670"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "May 29-30, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-05-29      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-05-30        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Mathias Barløse", "Punam Amratia"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
